@@ -3,8 +3,6 @@ package br.com.alurajava.help;
 
 //Use o comando import para importar e usar diretamente a classe/procedimento sem ter que informar o caminho completo
 
-import br.com.alurajava.banco.modelo.Funcionario;
-
 public class javaTips {
 
 }
@@ -34,5 +32,9 @@ Tambem é possível gerar um .jar como executável, para isso no momento de expo
 // Todas as Strings em Java são imutaveis
 
 // O método ToString herdado da classe Object pode ser sobreescrito (com a notation @Override) e assim podemos usar o metodo toString para imprimir o objeto de uma forma "customizada"
+
+//serialVersionUID - É um atributo que é usado para identificar a versão do objeto serializado.
+// Quando mudanças em sua estrutura quebram o código é uma boa pratica alterar esse numero
+
 
 
